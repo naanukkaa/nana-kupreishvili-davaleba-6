@@ -44,14 +44,19 @@ nav {
 	vertical-align: middle;
 }	
 .container {
-	max-width: 1100px;
-	width: 90%;
-	margin: 0 auto;
+	max-width: 1300px;
+ 	 width: 90%;
+  	margin: 0 auto;
 }
 
 /*მთავარი*/
 
 /* ქარდების საერთო კოდი */
+
+.section {
+	margin-top: 60px;
+	padding: 20px 0;
+}
 
 .title{
 	text-transform: uppercase;
@@ -74,23 +79,19 @@ nav {
 
 .img-container {
 	display: inline-block;
-	position: relative;
-	background-color: white;
-	margin-left: 40px;
+  	position: relative;
+  	background-color: white;
 	height: 357px;
+ 	width: 362px;
+	margin-left: 20px;
+
 }
 .card-image {
 	height: 186px;
 	width: 362px;
 }
 
-/*ქარდი N1*/
-.section-1 {
-	margin-top: 60px;
-	padding: 20px 0;
-}
-
-.paragraph-one{
+.paragraph{
 	position: absolute;
 	top: 246px;
 	left: 37px;
@@ -120,3 +121,6 @@ nav {
 	color: #8A8787;
 	line-height: 200%;
 }
+
+
+
