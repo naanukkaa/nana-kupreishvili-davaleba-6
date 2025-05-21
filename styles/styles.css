@@ -8,7 +8,7 @@
 body {
 	background-color: #F1F1F1;
 }
-
+/*თავი*/
 header {
 	background-color: #F1F1F1;
 	padding: 20px 0;
@@ -22,6 +22,8 @@ a {
 	color: black;
 	font-family: "Roboto", sans-serif;
 	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 700;
 }
 .gap{
 	margin-right: 29px;
@@ -39,66 +41,31 @@ li {
 nav {
 	display: inline-block;
 	vertical-align: middle;
-}
-
-img {
-	vertical-align: middle;
-}
-
+}	
 .container {
 	max-width: 1100px;
 	width: 90%;
 	margin: 0 auto;
 }
 
-section {
+/*მთავარი*/
+
+.section-1 {
 	margin-top: 80px;
 	padding: 20px 0;
 }
-
-
-.parent {
-	width: 300px;
-	height: 300px;
-	background-color: coral;
-	position: relative;
-	z-index: 2;
-}
-
-.child {
-	width: 100px;
-	height: 100px;
-	position: absolute;
-}
-
-/*.child-1 {
-	background-color: blue;
-	z-index: 2;
-}
-.child-2 {
-	background-color: green;
-	top: 50px;
-	left: 50px;
-	z-index: 1;
-}*/
-.child-3 {
-	background-color: yellow;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	    -ms-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
-	z-index: 3;
-}
-
-img {
-
+.title{
+	text-transform: uppercase;
+	font-family: "Roboto", sans serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 20px;
 }
 
 .img-container {
-/*	border: 1px solid black;*/
 	display: inline-block;
 	position: relative;
+
 }
 
 .text {
@@ -109,5 +76,6 @@ img {
 }
 
 .card-image {
-
+	height: 186px;
+	width: 362px;
 }
