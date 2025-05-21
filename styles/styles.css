@@ -191,83 +191,110 @@ nav {
   font-family: "Roboto", sans-serif;
 }
 
-/*ბოლო ზოლი*/
-
-.bottom-box{
-	height: 201px;
-	width: 1521px;
-	background-color: #243043;
-	border:1px solid #243043;
+/* ბოლო ზოლი */
+.bottom-box {
+  height: 201px;
+  width: 1521px;
+  background-color: #243043;
+  border: 1px solid #243043;
 }
 
-/*პირველი ზოლი*/
+/* პირველი ზოლი */
+.column-one {
+  display: inline-block;
+  vertical-align: top;
+}
 
-.column-one{
+.column-one-p {
+  margin-left: 137px;
+  margin-top: 60px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #818687;
+}
+
+.column-one-p-2 {
+  margin-left: 137px;
+  margin-top: 14px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #818687;
+}
+
+/* მეორე ზოლი */
+.column-two {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column-two-p {
+  margin-left: 96px;
+  margin-top: 60px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #818687;
+}
+
+.column-two-p-2 {
+  margin-left: 96px;
+  margin-top: 14px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #818687;
+}
+
+/* მესამე ზოლი */
+.column-three {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column-three-p {
+  margin-left: 96px;
+  margin-top: 60px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #818687;
+}
+
+.column-three-p-2 {
+  margin-left: 96px;
+  margin-top: 14px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #818687;
+}
+
+/* ფრაზა და ლოგო*/
+.phrase-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 112px;
+  margin-top: 60px;
+}
+
+.phrase-p {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.logo{
 	display: inline-block;
-}
-
-.column-one-p{
-	margin-left: 137px;
+	vertical-align: text-top;
+	margin-left: 416px;
 	margin-top: 60px;
-	font-size: 12px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	color: #818687;	
+
 }
 
-.column-one-p-2{
-	margin-left: 137px;
-	margin-top: 14px;
-	font-size: 12px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	color: #818687;	
-}
-
-/*მეორე ზოლი*/
-
-.column-two{
+.logo-geolab{
 	display: inline-block;
-}
-
-.column-two-p{
-	margin-left: 96px;
-	margin-top: 60px;
-	font-size: 12px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	color: #818687;	
-}
-
-.column-two-p-2{
-	margin-left: 96px;
-	margin-top: 14px;
-	font-size: 12px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	color: #818687;	
-}
-
-/*მესამე ზოლი*/
-
-.column-three{
-	display: inline-block;
-}
-
-.column-three-p{
-	margin-left: 96px;
-	margin-top: 60px;
-	font-size: 12px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	color: #818687;	
-}
-
-.column-three-p-2{
-	margin-left: 96px;
-	margin-top: 14px;
-	font-size: 12px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	color: #818687;	
+	vertical-align: text-top;
 }
